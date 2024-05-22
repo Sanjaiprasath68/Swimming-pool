@@ -4,7 +4,6 @@ import Home from './components/home/Home';
 import Program from './components/program/Program';
 import Member from './components/member/Member'
 import Classess from './components/classess/Classess'
-import DemoVideo from './components/demoVideo/DemoVideo';
 import ExpertSystem from './components/expertSystem/ExpertSystem';
 import Map from './components/map/Map';
 import Footer from './components/footer/Footer';
@@ -17,7 +16,6 @@ function App() {
       <Program />
       <Member />
       <Classess />
-      <DemoVideo />
       <ExpertSystem />
       <Map />
       <BookNow />
