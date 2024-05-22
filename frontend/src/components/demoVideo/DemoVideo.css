@@ -1,0 +1,10 @@
+.demoVideo {
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width: 480px) {
+    .demoVideo img {
+        height: 200px;
+
+    }
+}

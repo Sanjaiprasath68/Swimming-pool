@@ -1,0 +1,86 @@
+.book_container {
+    margin-left: 27%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 600px;
+    height: 250px;
+    background-color: rgb(82, 223, 223);
+}
+
+form input,
+textarea,
+select {
+    margin-left: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(82, 223, 223);
+    margin-top: 8px;
+}
+
+form input,
+select {
+    padding: 10px;
+}
+
+select {
+    width: 550px;
+}
+
+form input {
+    margin-top: 20px;
+    width: 230px;
+}
+
+.email {
+    margin-left: 47px;
+}
+
+textarea {
+    width: 545px;
+    height: 80px;
+}
+
+form button {
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 8px;
+    float: right;
+    margin-right: 20px;
+    width: 150px;
+    margin-top: 5px;
+}
+
+.joinnow {
+    text-align: center;
+
+}
+
+@media screen and (max-width: 480px) {
+    .book_container {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    form input,
+    textarea,
+    select {
+        margin-left: 10px;
+
+    }
+
+    .book_container input {
+
+        width: 135px;
+    }
+
+    select {
+        width: 95%;
+    }
+    textarea{
+        width: 94%;
+    }
+    form button{
+    margin-right: 8px;
+    }
+}

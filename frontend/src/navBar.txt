@@ -1,0 +1,85 @@
+import React from 'react'
+import './NavBar.css'
+import swim from '../assests/swim.jpg'
+import swim_basic from '../assests/swim_basic.jpg'
+
+const NavBar = () => {
+    return (
+        <div>
+            <nav>
+                <div><h1>SAS Swimming Pool</h1> </div>
+                <div>
+                    <ul className='items'>
+                        <li className='home'>HOME</li>
+                        <li className='about'>ABOUT</li>
+                        <li className='classes'>CLASSES</li>
+                        <li className='schedules'>SCHEDULES</li>
+                        <li className='contact'>CONTACT</li>
+                        <li className='booknow'><button>BOOKNOW</button></li>
+                    </ul>
+                </div>
+            </nav>
+            <section className='conatiner'>
+                <img src={swim} alt='swim' />
+                <h4 className='text-overlay1'>WORK HARDER, GET STRONGER</h4>
+                <h1 className='text-overlay2'>EASY WITH <span>SAS</span> SWIMMING POOL</h1>
+                <p className='text-overlay3'><button>BECOME A MEMBER</button></p>
+            </section>
+            <section className='sec-2'>
+                <h1>CHOOSE <span>PROGRAM</span></h1>
+                <p className='para1'>Dive into a world of excellence with our tailored swimming programs, meticulously
+                    designed to elevate your skills and performance. From refining strokes to mastering
+                    advanced techniques, our expert-led sessions cater to swimmers of all levels, ensuring
+                    every stroke brings you closer to your goals. Join our vibrant community of enthusiasts
+                    , where camaraderie and passion for swimming create an environment ripe for improvement and success.
+                    Take the plunge today and experience the difference our programs can make in your aquatic journey.</p>
+                <div className='swim_basic'>
+                    <div className='img_basic'>
+                        <img src={swim_basic} alt='swim_basic' />
+                        <h3>Basic Fitness</h3>
+                        <p className='para2'>Dive into a world of excellence with make in your aquatic journey.</p>
+                        <button>DISCOVER MORE</button>
+                    </div>
+                    <div className='img_basic'>
+                        <img src={swim_basic} alt='swim_basic' />
+                        <h3>Basic Fitness</h3>
+                        <p className='para2'>Dive into a world of excellence with make in your aquatic journey.</p>
+                        <button>DISCOVER MORE</button>
+                    </div>
+                    <div className='img_basic'>
+                        <img src={swim_basic} alt='swim_basic' />
+                        <h3>Basic Fitness</h3>
+                        <p className='para2'>Dive into a world of excellence with make in your aquatic journey.</p>
+                        <button>DISCOVER MORE</button>
+                    </div>
+                    <div className='img_basic'>
+                        <img src={swim_basic} alt='swim_basic' />
+                        <h3>Basic Fitness</h3>
+                        <p className='para2'>Dive into a world of excellence with make in your aquatic journey.</p>
+                        <button>DISCOVER MORE</button>
+                    </div>
+                </div>
+            </section>
+            <section className='sec-3'>
+                <div>
+                    <img src={swim} alt='image3' />
+                    <h4 className='text1'>DON'T <span>THINK</span>,BEGIN TODAY!</h4>
+                    <p className='text2'>Dive into a world of excellence with our tailored swimming programs, meticulously
+                        designed to elevate your skills and performance. From refining strokes to mastering
+                        advanced techniques,</p>
+                    <button className='text3'>BECOME A MEMBER</button>
+                </div>
+            </section>
+
+            <section className='sec-4'>
+                <h1>OUR <span>CLASSES</span></h1>
+                <p className='para1'>Dive into a world of excellence with our tailored swimming programs, meticulously
+                    designed to elevate your skills <br></br>and performance. From refining strokes to mastering
+                    advanced techniques, our expert-led sessions cater to swimmers of all levels, ensuring designed to elevate your skills </p>
+            </section>
+
+        </div>
+    )
+}
+
+export default NavBar

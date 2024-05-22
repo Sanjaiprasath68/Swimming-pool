@@ -1,0 +1,67 @@
+.expertSystem h1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.expertSystem .para1 {
+    width: 800px;
+    font-weight: 500;
+    margin-left: 250px;
+    margin-right: 90px;
+    margin-bottom: 50px;
+}
+
+.swim_expert {
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.swim_expert img {
+    width: 350px;
+    height: 220px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.img_expert .para2 {
+    width: 280px;
+    margin-left: 35px;
+    margin-top: -10px;
+}
+
+.img_expert h4 {
+    width: 150px;
+    margin-left: 100px;
+    color: white;
+    padding: 6px;
+    background-color: rgb(82, 223, 223);
+    cursor: pointer;
+    border: 1px solid rgb(82, 223, 223);
+}
+
+@media screen and (max-width: 480px) {
+
+    .expertSystem .para1{
+        margin-left: 8px;
+        text-align: justify;
+        width: 95%;
+    }
+    .swim_expert{
+        display: block;
+        margin-left: 12px;
+    }
+    .swim_expert h4{
+        margin-top: 5px;
+    }
+    .swim_expert h3{
+        margin-top: -5px;
+        margin-left: 77px;
+    }
+    .swim_expert .para2{
+        margin-bottom: 30px;
+    }
+}
