@@ -1,6 +1,8 @@
 import React from 'react'
 import "./ExpertSystem.css"
-import swim from '../../assests/swim.jpg'
+import trainer1 from '../../assests/trainer1.jpg'
+import trainer2 from '../../assests/trainer2.jpg'
+import trainer3 from '../../assests/trainer3.jpg'
 import { Element } from 'react-scroll'
 
 
@@ -15,19 +17,19 @@ const ExpertSystem = () => {
                 </p>
                 <div className='swim_expert'>
                     <div className='img_expert'>
-                        <img src={swim} alt='swim_basic' />
+                        <img src={trainer1} alt='swim_basic' />
                         <h4>Strength Trainer</h4>
                         <h3>Bret D. BOWERS</h3>
                         <p className='para2'>Dive into a world of excellence with make in your aquatic journey.</p>
                     </div>
                     <div className='img_expert'>
-                        <img src={swim} alt='swim_basic' />
+                        <img src={trainer2} alt='swim_basic' />
                         <h4>Strength Trainer</h4>
                         <h3>Bret D. BOWERS</h3>
                         <p className='para2'>Dive into a world of excellence with make in your aquatic journey.</p>
                     </div>
                     <div className='img_expert'>
-                        <img src={swim} alt='swim_basic' />
+                        <img src={trainer3} alt='swim_basic' />
                         <h4>Strength Trainer</h4>
                         <h3>Bret D. BOWERS</h3>
                         <p className='para2'>Dive into a world of excellence with make in your aquatic journey.</p>
